@@ -1,7 +1,7 @@
 from pprint import pprint
 
 
-def SolutionA(visits):
+def solution_a(visits):
     m = {}
     for p in visits:
         if p[0] not in m:
@@ -30,7 +30,7 @@ def main():
         ('d', 4), ('d', 5), ('d', 6), ('d', 7),
         ('e', 1), ('e', 3), ('e', 5), ('e', 6)]
     
-    similarity = SolutionA(visits)
+    similarity = solution_a(visits)
     print('similarity:')
     pprint(similarity)
 
